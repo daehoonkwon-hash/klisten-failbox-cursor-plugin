@@ -1,0 +1,27 @@
+{
+  "name": "klisten-failbox",
+  "version": "0.1.0",
+  "description": "Persist failure simulations. No external fault injection or transfers. Customer key required.",
+  "author": {
+    "name": "Klisten Inc",
+    "email": "klisteninc@gmail.com"
+  },
+  "homepage": "https://klisten.co.kr/customer-guide",
+  "license": "UNLICENSED",
+  "logo": "assets/icon.svg",
+  "mcpServers": "mcp.json",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "KLISTEN_API_KEY": {
+        "type": "string",
+        "title": "Your scoped Klisten API key",
+        "description": "Your own Klisten API key with failbox:session, failbox:step. Never put a key in chat or source code."
+      }
+    },
+    "required": [
+      "KLISTEN_API_KEY"
+    ]
+  },
+  "repository": "https://github.com/daehoonkwon-hash/klisten-failbox-cursor-plugin"
+}

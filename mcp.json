@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "failbox": {
+      "url": "https://api.klisten.co.kr/mcp/failbox",
+      "headers": {
+        "Authorization": "Bearer ${KLISTEN_API_KEY}"
+      }
+    }
+  }
+}
